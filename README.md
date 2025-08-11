@@ -29,8 +29,10 @@ The app uses **[pdf-lib](https://github.com/Hopding/pdf-lib)** for PDF processin
 
 ## 📂 Project Structure
 
+```
 .
-├── index.html # Main HTML file with embedded CSS & JavaScript
+├── index.html   # Main HTML file with embedded CSS & JavaScript
+```
 
 ---
 
@@ -61,23 +63,25 @@ If you want to host it locally:
 git clone https://github.com/your-username/pdf-merger-pro.git
 cd pdf-merger-pro
 # Open index.html in your preferred browser
+```
 
 ---
 
 ## 🛡️ Privacy & Security
-All processing happens in your browser.
 
-No files are uploaded to any server.
-
-Merged PDF is generated locally and available for immediate download.
+- All processing happens **in your browser**.
+- No files are uploaded to any server.
+- Merged PDF is generated locally and available for immediate download.
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 ## 👨‍💻 Author
-Made with ❤️ by Devesh
+
+Made with ❤️ by **Devesh**
