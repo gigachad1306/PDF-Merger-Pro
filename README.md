@@ -1,67 +1,81 @@
-PDF Merger Pro
-A modern, fast, and secure client-side PDF merging tool built with HTML, CSS, and JavaScript. PDF Merger Pro allows you to combine multiple PDF files into a single document directly in your browser, with no need to upload your files to a server.
+# 📄 PDF Merger Pro
 
-[Live Demo]([url](https://gigachad1306.github.io/PDF-Merger-Pro/)) (Replace with your GitHub Pages link)
+**PDF Merger Pro** is a modern, lightweight, and fully client-side PDF merging web app. It allows you to **combine, reorder, and manage PDF files** directly in your browser — no uploads to a server required.  
 
-✨ Key Features
-Secure & Private: All PDF processing happens directly in your browser. Your files are never uploaded to a server.
+The app uses **[pdf-lib](https://github.com/Hopding/pdf-lib)** for PDF processing and includes a clean, responsive UI with **light/dark mode**, **drag-and-drop reordering**, and **progress tracking**.
 
-Drag & Drop Interface: Easily add and reorder files with an intuitive drag-and-drop system.
+---
 
-Light & Dark Modes: A sleek theme switcher for your viewing comfort.
+## 🚀 Features
 
-File Previews: See a list of your uploaded files, including page count and file size.
+- **Merge Multiple PDFs** — Select or drag-and-drop multiple PDF files to combine them.
+- **Reorder Files** — Drag and drop to change the order before merging.
+- **Preview File Details** — See file name, page count, and size.
+- **Light/Dark Theme Toggle** — Switch between light and dark modes.
+- **Progress Tracking** — Visual progress bar while merging.
+- **Custom Output Name** — Rename your merged PDF before downloading.
+- **Client-Side Only** — No server uploads; your files stay private.
 
-Custom Naming: Set a custom filename for your merged PDF before downloading.
+---
 
-Fully Responsive: A clean and modern UI that works beautifully on desktops, tablets, and mobile devices.
+## 📦 Technologies Used
 
-No Dependencies: Runs in any modern web browser without requiring any special software.
+- **HTML5, CSS3, JavaScript (Vanilla)**
+- **[pdf-lib](https://github.com/Hopding/pdf-lib)** for PDF manipulation
+- **Font Awesome** for icons
+- **Google Fonts (Inter)** for typography
 
-🚀 Getting Started
-You can use this tool by visiting the live demo link above or by running it locally.
+---
 
-Prerequisites
-A modern web browser (e.g., Google Chrome, Firefox, Microsoft Edge).
+## 📂 Project Structure
 
-Local Installation
-Clone the repository to your local machine:
+.
+├── index.html # Main HTML file with embedded CSS & JavaScript
 
-git clone https://github.com/your-github-username/your-repo-name.git
+yaml
+Copy
+Edit
 
-Navigate to the project directory:
+---
 
-cd your-repo-name
+## 💻 Usage
 
-Open the index.html file in your web browser.
+1. **Open** `index.html` in your web browser.
+2. **Upload** PDF files by:
+   - Clicking the upload box, or
+   - Dragging and dropping files onto it.
+3. **Reorder** files by dragging them in the list.
+4. **Click** "Merge PDFs".
+5. **Rename** the merged file (optional).
+6. **Download** the final combined PDF.
 
-💻 How to Use
-Upload PDFs: Drag and drop your PDF files onto the upload area, or click the "browse" button to select them from your computer.
+---
 
-Reorder Files: Once uploaded, simply drag and drop the files in the list to set the desired merge order.
+## 📸 Screenshots
 
-Merge: Click the "Merge PDFs" button. The application will process and combine the files.
+*(Add your app screenshots here)*
 
-Download: After the merge is complete, a download section will appear. You can customize the filename and click "Download Merged PDF" to save your new file.
+---
 
-Reset: Use the "Clear All" button at any time to start over.
+## ⚡ Installation (Optional)
 
-🛠️ Technologies Used
-pdf-lib.js: A powerful JavaScript library for creating and modifying PDF documents.
+If you want to host it locally:
 
-HTML5: For the core structure of the application.
+```bash
+git clone https://github.com/your-username/pdf-merger-pro.git
+cd pdf-merger-pro
+# Open index.html in your preferred browser
 
-CSS3: For styling, including custom properties (variables) for theming, Flexbox for layout, and a glassmorphism-inspired design.
+## 🛡️ Privacy & Security
+All processing happens in your browser.
 
-Vanilla JavaScript: For all the application logic, including DOM manipulation, event handling, and interacting with the pdf-lib API.
+No files are uploaded to any server.
 
-Font Awesome: For icons.
+Merged PDF is generated locally and available for immediate download.
 
-Google Fonts: For the 'Inter' typeface.
+## 📜 License
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
-👤 Author
+## 👨‍💻 Author
 Made with ❤️ by Devesh
-
-
-📄 License
-This project is open source and available for anyone to use or modify. Please see the LICENSE file for more details.
